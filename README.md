@@ -13,4 +13,4 @@
 `code`
 ---
 [Markdown Doc](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-![smiley](file:///C:/Users/mrdan/Downloads/smiley.jpg)
+![smiley](https://i.etsystatic.com/28810262/r/il/2fc5e0/5785166966/il_570xN.5785166966_nvy4.jpg)
