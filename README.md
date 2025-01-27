@@ -1,6 +1,6 @@
 # Engineering Design VI
-> # Daniel Liss
-## CPE 322-A
+> ## CPE 322-A
+## Daniel Liss
 ### Stevens Career
 *Major*
 - **EE** Electrical Engineering
