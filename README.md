@@ -4,6 +4,7 @@
 *Major*
 - **EE** Electrical Engineering
 - **Power** Power Engineering Discipline
+
 *Associated Organizations*
 - **C2GS** Computer & Console Gaming Society
 - **SHPE Stevens** Society of Hispanic Professional Engineers
