@@ -1,10 +1,10 @@
 # Engineering Design VI `CPE 322-A`
 ## Daniel Liss
 ### Stevens Career
-> *Major*
+#### *Major*
 - **EE** Electrical Engineering
 
-> *Associated Organizations*
+#### *Associated Organizations*
 - **C2GS** Computer & Console Gaming Society
 - **SHPE Stevens** Society of Hispanic Professional Engineers
 - **Stevens IEEE** Institute of Electrical and Electronics Engineers
@@ -12,7 +12,7 @@
 - **Creative StoryTelling Club**
 ---
 ### Coding Background
-> *Proficient Languages*
+#### *Proficient Languages*
 - **Python**
 - **C++**
 - **JavaScript**
