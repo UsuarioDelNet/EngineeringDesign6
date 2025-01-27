@@ -1,5 +1,4 @@
-# Engineering Design VI
-> ## CPE 322-A
+# Engineering Design VI `CPE 322-A`
 ### Stevens Career
 > *Major*
 - **EE** Electrical Engineering
