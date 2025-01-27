@@ -27,6 +27,6 @@
 **Hobbies?**
 I love fútbol! The club I support is my hometown club Deportivo de La Coruña, but I follow a ton of different teams. I also play guitar and play a lot of videogames with friends. 
 
-[My Resume](ResumeFirstDraft.pdf)
+[My Resume](SourceFolder/ResumeFirstDraft.pdf)
 ---
-![Dan Not Found](MeAsl.jpg)
+![Dan Not Found](SourceFolder/MeAsl.jpg)
