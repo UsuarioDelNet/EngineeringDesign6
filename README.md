@@ -24,7 +24,7 @@
 ### About Me
 **My name is:** *Daniel Andres Liss Pan*
 **Hobbies?**
-I love fútbol! My favorite team is Deportivo de La Coruña
+I love fútbol! My favorite club is Deportivo de La Coruña
 
 [Deportivo](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 ---
