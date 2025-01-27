@@ -30,6 +30,6 @@ I love fútbol! The club I support is my hometown club Deportivo de La Coruña, 
 
 > Forever is too long -- Tyler Gregory Okonma
 
-`[My Resume](SourceFolder/ResumeFirstDraft.pdf)`
+[`My Resume`](SourceFolder/ResumeFirstDraft.pdf)
 ---
 ![Dan Not Found](SourceFolder/MeAsl.jpg)
