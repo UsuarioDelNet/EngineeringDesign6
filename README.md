@@ -12,14 +12,11 @@
 - **Creative StoryTelling Club**
 ---
 ### Coding Background
-#### *Proficient Languages*
-- **Python**
-- **C++**
-- **JavaScript**
+#### *Proficient Languages* `in order of proficienct`
+1. **Python**
+2. **C++**
+3. **JavaScript**
 > block quote
-1. ordered list 1
-2. ordered list 2
-3. ordered list 3
 ---
 ### About Me
 **My name is:** *Daniel Andres Liss Pan*
