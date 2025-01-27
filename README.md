@@ -12,7 +12,7 @@
 - **Creative StoryTelling Club**
 ---
 ### Coding Background
-#### *Proficient Languages `By Proficiency`*
+#### *Proficiency With Coding Languages*
 1. **Python**
 2. **C++**
 3. **JavaScript**
