@@ -18,6 +18,7 @@
 3. **JavaScript**
 
 Please check out the rest of my GitHub! I have a few projects I am very proud of!
+
 ---
 ### About Me
 **My name is:** *Daniel Andres Liss Pan*
