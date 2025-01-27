@@ -24,7 +24,9 @@
 **Hobbies?**
 I love fútbol! The club I support is my hometown club Deportivo de La Coruña, but I follow a ton of different teams. I also play guitar and play a lot of videogames with friends.
 
-> Google En Passant
+**What music I listen to:** I love all styles of music, but the best album out right now is Chromakopia and it's not even close.
+
+> Forever is too long -- Tyler Gregory Okonma
 
 [My Resume](SourceFolder/ResumeFirstDraft.pdf)
 ---
