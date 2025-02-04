@@ -17,10 +17,10 @@
 2. **C++**
 3. **JavaScript**
 
-*Please check out the rest of my GitHub! I have a few projects I am very proud of!*
-[`A FIFA pack opening simulator`](https://github.com/UsuarioDelNet/FifaVSC)
-[`My quick related rates calculator`](https://github.com/UsuarioDelNet/RelatedRatesBeta)
-[`An old vanding machine project from a few years ago`](https://github.com/UsuarioDelNet/VendingMachine)
+*Please check out the rest of my GitHub! I have a few projects I am very proud of!* <br />
+[`A FIFA pack opening simulator`](https://github.com/UsuarioDelNet/FifaVSC) <br />
+[`My quick related rates calculator`](https://github.com/UsuarioDelNet/RelatedRatesBeta) <br />
+[`An old vanding machine project from a few years ago`](https://github.com/UsuarioDelNet/VendingMachine) <br />
 
 ---
 ### About Me
