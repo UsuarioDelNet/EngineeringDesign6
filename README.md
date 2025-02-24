@@ -23,6 +23,10 @@
 [`An old vanding machine project from a few years ago`](https://github.com/UsuarioDelNet/VendingMachine) <br />
 
 ---
+### CPE 322-A Labs
+1. **Lab 1**
+
+---
 ### About Me
 **My name is:** *Daniel Andres Liss Pan*
 
