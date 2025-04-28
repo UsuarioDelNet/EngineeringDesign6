@@ -25,3 +25,8 @@ $ gtkwave tff.vcd
 ```
 ![T Flip Flop Powershell](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab1/SourcesLab1/TffPowershell.png)
 ![GTKWave T Flip Flop](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab1/SourcesLab1/GTKWaveTff.png)
+<br />
+<br />
+---
+#### Postscript
+- All source files were found in [`Dr. Lu's GitHub`](https://github.com/kevinwlu/dsd/tree/master/ghdl)
