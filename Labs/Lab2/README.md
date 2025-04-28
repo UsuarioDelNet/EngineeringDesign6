@@ -27,6 +27,7 @@
 - [`$ netstat`](#netstat)
 ---
 ### hostname
+
 ```hostname
 C:\Users\mrdan>hostname
 DAL_Laptop
