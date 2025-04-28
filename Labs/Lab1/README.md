@@ -2,7 +2,6 @@
 ## Lab 1 — GHDL and GTKWave
 ---
 ### Half Adder Example
-
 ```Half Adder CMD
 $ ghdl -a ha.vhd
 $ ghdl -a ha_tb.vhd
@@ -15,6 +14,7 @@ $ gtkwave ha.vcd
 ![GTKWave Half Adder](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab1/SourcesLab1/GTKWaveHa.png)
 <br />
 <br />
+---
 ### T Flip Flop Example
 ```T Flip Flop CMD
 $ ghdl -a tff.vhd
