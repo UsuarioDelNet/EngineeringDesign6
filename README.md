@@ -26,6 +26,7 @@
 ### CPE 322-A Labs
 1. [**Lab 1**](https://github.com/UsuarioDelNet/EngineeringDesign6/tree/main/Labs/Lab1)
 2. [**Lab 2**](https://github.com/UsuarioDelNet/EngineeringDesign6/tree/main/Labs/Lab2)
+3. **Lab 3**
 
 ---
 ### About Me
