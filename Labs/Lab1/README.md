@@ -13,3 +13,15 @@ $ gtkwave ha.vcd
 ```
 ![Half Adder Powershell](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab1/SourcesLab1/HaPowershell.png)
 ![GTKWave Half Adder](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab1/SourcesLab1/GTKWaveHa.png)
+
+
+```T Flip Flop CMD
+$ ghdl -a ha.vhd
+$ ghdl -a ha_tb.vhd
+$ ghdl -e ha_tb
+$ ghdl -r ha_tb --vcd=ha.vcd
+ha_tb.vhdl:47:5:@5ns:(assertion error): Reached end of test
+$ gtkwave ha.vcd
+```
+![T Flip Flop Powershell](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab1/SourcesLab1/TffPowershell.png)
+![GTKWave T Flip Flop](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab1/SourcesLab1/GTKWaveTff.png)
