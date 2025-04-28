@@ -29,5 +29,7 @@ $ gtkwave tff.vcd
 <br />
 ---
 #### Postscript
-- All source files were found in [`Dr. Lu's GitHub`](https://github.com/kevinwlu/dsd/tree/master/ghdl)
+- All my source files were initially obtained in [`Dr. Lu's GitHub`](https://github.com/kevinwlu/dsd/tree/master/ghdl)
 - Alternatively, they can be found in my [`CodeLab1 File`](https://github.com/UsuarioDelNet/EngineeringDesign6/tree/main/Labs/Lab1/CodeLab1)
+-
+- I pledge my honor that I have abided by the Stevens Honor System:<ins>  *Daniel Liss*   </ins>
