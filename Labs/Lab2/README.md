@@ -267,40 +267,11 @@ MSYS_NT-10.0-22631 DAL_Laptop 3.3.6-341.x86_64 2022-09-06 08:02 UTC x86_64 Msys
 ```
 ### ifconfig
 ```ifconfig
-C:\Users\mrdan\iot\demo>man uname
-'man' is not recognized as an internal or external command,
-operable program or batch file.
-```
-```ipconfig
-C:\Users\mrdan\iot\demo>uname --help
-Usage: uname [OPTION]...
-Print certain system information.  With no OPTION, same as -s.
-
-  -a, --all                print all information, in the following order,
-                             except omit -p and -i if unknown:
-  -s, --kernel-name        print the kernel name
-  -n, --nodename           print the network node hostname
-  -r, --kernel-release     print the kernel release
-  -v, --kernel-version     print the kernel version
-  -m, --machine            print the machine hardware name
-  -p, --processor          print the processor type (non-portable)
-  -i, --hardware-platform  print the hardware platform (non-portable)
-  -o, --operating-system   print the operating system
-      --help     display this help and exit
-      --version  output version information and exit
-
-GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
-Report any translation bugs to <https://translationproject.org/team/>
-Full documentation <https://www.gnu.org/software/coreutils/uname>
-or available locally via: info '(coreutils) uname invocation'
-
-C:\Users\mrdan\iot\demo>uname -a
-MSYS_NT-10.0-22631 DAL_Laptop 3.3.6-341.x86_64 2022-09-06 08:02 UTC x86_64 Msys
-
 C:\Users\mrdan\iot\demo>ifconfig
 'ifconfig' is not recognized as an internal or external command,
 operable program or batch file.
-
+```
+```ipconfig
 C:\Users\mrdan\iot\demo>ipconfig
 
 Windows IP Configuration
