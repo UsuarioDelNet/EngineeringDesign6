@@ -13,8 +13,9 @@ $ gtkwave ha.vcd
 ```
 ![Half Adder Powershell](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab1/SourcesLab1/HaPowershell.png)
 ![GTKWave Half Adder](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab1/SourcesLab1/GTKWaveHa.png)
-
-
+<br />
+<br />
+### T Flip Flop Example
 ```T Flip Flop CMD
 $ ghdl -a tff.vhd
 $ ghdl -a tff_tb.vhd
