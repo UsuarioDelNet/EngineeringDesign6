@@ -7,7 +7,7 @@
 - [`$ env`](#env)
 - [`$ ps`](#ps)
 - [`$ pwd`](#pwd)
-- [`$ git clone https://github.com/kevinwlu/iot.git`](#git-clone-https-github-com-kevinwlu-iot-git)
+- [`$ git clone https://github.com/kevinwlu/iot.git`](#git-clone)
 - [`$ cd iot`](#cd-iot)
 - [`$ ls`](#ls)
 - [`$ cd`](#cd)
@@ -90,26 +90,88 @@ TERM=xterm-256color
 HOME=/home/mrdan
 ```
 ### ps
+```ps
+C:\Users\mrdan>ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1878       1    1878      37716  cons0     197609 02:19:53 /usr/bin/ps
+```
 ### pwd
-<h3 id="git-clone-https-github-com-kevinwlu-iot-git">git clone https://github.com/kevinwlu/iot.git</h3>
+```pwd
 
+```
+<h3 id="git-clone">git clone https://github.com/kevinwlu/iot.git</h3>
+
+```git clone
+
+```
 ### cd iot
+```cd iot
+
+```
 ### ls
+```ls
+
+```
 ### cd
+```cd
+
+```
 ### df
+```df
+
+```
 ### mkdir demo
+```mkdir demo
+
+```
 ### cd demo
+```cd demo
+
+```
 ### nano file
+```nano file
+
+```
 ### cat file
+```cat file
+
+```
 ### cp file file1
+```cp file file1
+
+```
 ### mv file file2
+```mv file file2
+
+```
 ### rm file2
+```rm file2
+
+```
 ### clear
+```clear
+
+```
 ### man uname
+```man uname
+
+```
 ### uname -a
+```uname -a
+
+```
 ### ifconfig
+```ifconfig
+
+```
 ### ping localhost
+```ping localhost
+
+```
 ### netstat
+```netstat
+
+```
 ---
 #### Postscript
 - I pledge my honor that I have abided by the Stevens Honor System: Daniel A. Liss
