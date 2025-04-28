@@ -104,7 +104,9 @@ C:\Users\mrdan>ps
 C:\Users\mrdan>pwd
 /c/Users/mrdan
 ```
+
 <h3 id="git-clone">git clone https://github.com/kevinwlu/iot.git</h3>
+
 > git clone makes a copy of whatever repository is at the link location. Here, the link is [https://github.com/kevinwlu/iot.git](https://github.com/kevinwlu/iot)
 ```git clone
 C:\Users\mrdan>git clone https://github.com/kevinwlu/iot.git
