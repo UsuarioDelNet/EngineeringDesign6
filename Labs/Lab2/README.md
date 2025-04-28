@@ -5,10 +5,28 @@
 
 <ins>Commands to Input into Terminal</ins> 
 - [$ hostname](#hostname)
-$ env
-$ ps
-$ pwd
-$ git clone https://github.com/kevinwlu/iot.git
+- [$ env](#env)
+- [$ ps](#ps)
+- [$ pwd](#pwd)
+- [$ git clone https://github.com/kevinwlu/iot.git](#git clone https://github.com/kevinwlu/iot.git)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+- [$ hostname](#hostname)
+
 $ cd iot
 $ ls
 $ cd
