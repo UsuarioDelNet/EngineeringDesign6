@@ -16,13 +16,13 @@ $ gtkwave ha.vcd
 <br />
 ---
 ### T Flip Flop Example
-```T Flip Flop CMD
+`T Flip Flop CMD
 $ ghdl -a tff.vhd
 $ ghdl -a tff_tb.vhd
 $ ghdl -e tff_tb
 $ ghdl -r tff_tb --vcd=tff.vcd
 $ gtkwave tff.vcd
-```
+`
 ![T Flip Flop Powershell](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab1/SourcesLab1/TffPowershell.png)
 ![GTKWave T Flip Flop](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab1/SourcesLab1/GTKWaveTff.png)
 <br />
