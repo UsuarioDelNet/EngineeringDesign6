@@ -8,7 +8,7 @@
 - [`$ env`](#env)
 - [`$ ps`](#ps)
 - [`$ pwd`](#pwd)
-- [`$ git clone https://github.com/kevinwlu/iot.git`](#git-clone-https-github-com-kevinwlu-iot-git)
+- [`$ git clone https://github.com/kevinwlu/iot.git`](#git-clone-https-github.com-kevinwlu-iot.git)
 - [`$ cd iot`](#cd-iot)
 - [`$ ls`](#ls)
 - [`$ cd`](#cd)
