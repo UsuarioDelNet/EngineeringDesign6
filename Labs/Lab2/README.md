@@ -1,7 +1,6 @@
 # Engineering Design VI `CPE 322-A`
 ## Lab 2 — Command Line
 ---
-<br/ >
 
 <ins>Commands to Input into Terminal</ins> 
 - [`$ hostname`](#hostname)
@@ -32,7 +31,6 @@
 ### ps
 ### pwd
 <h3 id="git-clone-https-github-com-kevinwlu-iot-git">git clone https://github.com/kevinwlu/iot.git</h3>
-
 ### cd iot
 ### ls
 ### cd
