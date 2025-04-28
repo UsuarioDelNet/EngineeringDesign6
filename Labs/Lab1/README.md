@@ -3,7 +3,7 @@
 ---
 ### Half Adder Example
 
-```sh
+```Half Adder CMD
 $ ghdl -a ha.vhd
 $ ghdl -a ha_tb.vhd
 $ ghdl -e ha_tb
