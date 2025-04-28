@@ -21,7 +21,7 @@
 - [`$ rm file2`](#rm-file2)
 - [`$ clear`](#clear)
 - [`$ man uname`](#man-uname)
-- [`$ $ uname -a`](#uname--a)
+- [`$ uname -a`](#uname--a)
 - [`$ ifconfig`](#ifconfig)
 - [`$ ping localhost`](#ping-localhost)
 - [`$ netstat`](#netstat)
