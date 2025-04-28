@@ -1,21 +1,22 @@
-![hostname](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/hostname.png)
-![env](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/env.png)
-![ps](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/ps.png)
-![pwd](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/pwd.png)
-![git clone](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/gitclone.png)
-![ls](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/ls.png)
-![cd](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/cd.png)
-![df](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/df.png)
-![mkdir demo](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/mkdirdemo.png)
-![cd demo](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/cddemo.png)
-![nano file](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/nanofile.png)
-![cat file](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/catfile.png)
-![cp file file1](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/cpfilefile1.png)
-![mvfilefile2](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/mvfilefile2.png)
-![rm file2](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/rmfile2.png)
-![clear](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/clear.png)
-![man uname](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/manuname.png)
-![uname -a](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/unamea.png)
-![ifconfig](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/ifconfig.png)
-![ping localhost](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/pinglocalhost.png)
-![netstat](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/netstat.png)
+![hostname](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/hostname.png) <br/>
+![env](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/env.png)<br/>
+![ps](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/ps.png)<br/>
+![pwd](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/pwd.png)<br/>
+![git clone](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/gitclone.png)<br/>
+![ls](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/ls.png)<br/>
+![cd](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/cd.png)<br/>
+![df](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/df.png)<br/>
+![mkdir demo](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/mkdirdemo.png)<br/>
+![cd demo](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/cddemo.png)<br/>
+![nano file](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/nanofile.png)<br/>
+![cat file](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/catfile.png)<br/>
+![cp file file1](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/file1.png)<br/>
+![mvfilefile2](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/file2.png)<br/>
+![rm file2](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/file2gon.png)<br/>
+![clear](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/clear.png)<br/>
+![man uname](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/manuname.png)<br/>
+![uname -a](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/unamea.png)<br/>
+![ifconfig](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/ifconfig.png)<br/>
+![ipconfig](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/ipconfig.png)<br/>
+![ping localhost](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/pinglocalhost.png)<br/>
+![netstat](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/netstat.png)<br/>
