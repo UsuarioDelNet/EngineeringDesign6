@@ -9,7 +9,7 @@
 - [`$ ps`](#ps)
 - [`$ pwd`](#pwd)
 - [`$ git clone https://github.com/kevinwlu/iot.git`](#git-clone)
-- [`$ cd iot`](#hostname)
+- [`$ cd iot`](#cd-iot)
 - [`$ ls`](#ls)
 - [`$ cd`](#cd)
 - [`$ df`](#df)
@@ -26,8 +26,29 @@
 - [`$ ifconfig`](#ifconfig)
 - [`$ ping localhost`](#ping-localhost)
 - [`$ netstat`](#netstat)
-
+---
 ### hostname
+### env
+### ps
+### pwd
+### git clone https://github.com/kevinwlu/iot.git
+### cd iot
+### ls
+### cd
+### df
+### mkdir demo
+### cd demo
+### nano file
+### cat file
+### cp file file1
+### mv file file2
+### rm file2
+### clear
+### man uname
+### uname -a
+### ifconfig
+### ping localhost
+### netstat
 
 <br/>
 ---
