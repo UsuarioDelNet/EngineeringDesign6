@@ -480,5 +480,5 @@ Active Connections
 ```
 ---
 #### Postscript
-- To see the screenshots I took of my Terminal, please go to [the Readme file within SourcesLab2](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/README.md)
+- To see the screenshots I took of my Terminal, please go to [the Readme file within SourcesLab2](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/README.md). They are in the same order as this file.
 - I pledge my honor that I have abided by the Stevens Honor System: Daniel A. Liss
