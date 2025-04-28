@@ -19,22 +19,14 @@
 ---
 
 
-<h3 id="1">git clone https://github.com/kevinwlu/iot.git</h3>
+<h3 id="1">cd ~/iot</h3>
 
 > 
 ```
 
 ```
 
-<h3 id="1">git clone https://github.com/kevinwlu/iot.git</h3>
-
-> 
-```
-
-```
-
-
-<h3 id="1">git clone https://github.com/kevinwlu/iot.git</h3>
+<h3 id="2">cd *3</h3>
 
 > 
 ```
@@ -42,7 +34,7 @@
 ```
 
 
-<h3 id="1">git clone https://github.com/kevinwlu/iot.git</h3>
+<h3 id="3">python3 julian.py</h3>
 
 > 
 ```
@@ -50,7 +42,7 @@
 ```
 
 
-<h3 id="1">git clone https://github.com/kevinwlu/iot.git</h3>
+<h3 id="4">python3 date_example.py</h3>
 
 > 
 ```
@@ -58,7 +50,7 @@
 ```
 
 
-<h3 id="1">git clone https://github.com/kevinwlu/iot.git</h3>
+<h3 id="5">python3 datetime_example.py</h3>
 
 > 
 ```
@@ -66,7 +58,7 @@
 ```
 
 
-<h3 id="1">git clone https://github.com/kevinwlu/iot.git</h3>
+<h3 id="6">python3 time_example.py</h3>
 
 > 
 ```
@@ -74,7 +66,7 @@
 ```
 
 
-<h3 id="1">git clone https://github.com/kevinwlu/iot.git</h3>
+<h3 id="7">python3 sun.py "New York"</h3>
 
 > 
 ```
@@ -82,7 +74,7 @@
 ```
 
 
-<h3 id="1">git clone https://github.com/kevinwlu/iot.git</h3>
+<h3 id="8">python3 moon.py</h3>
 
 > 
 ```
@@ -90,7 +82,7 @@
 ```
 
 
-<h3 id="1">git clone https://github.com/kevinwlu/iot.git</h3>
+<h3 id="9">python3 coordinates.py "Samuel C. Williams Library"</h3>
 
 > 
 ```
@@ -98,7 +90,7 @@
 ```
 
 
-<h3 id="1">git clone https://github.com/kevinwlu/iot.git</h3>
+<h3 id="10">python3 address.py "40.74480675, -74.02532861159351"</h3>
 
 > 
 ```
@@ -106,7 +98,7 @@
 ```
 
 
-<h3 id="1">git clone https://github.com/kevinwlu/iot.git</h3>
+<h3 id="11">python3 cpu.py</h3>
 
 > 
 ```
@@ -114,7 +106,15 @@
 ```
 
 
-<h3 id="1">git clone https://github.com/kevinwlu/iot.git</h3>
+<h3 id="12">python3 battery.py</h3>
+
+> 
+```
+
+```
+
+
+<h3 id="13">python3 documentstats.py document.txt</h3>
 
 > 
 ```
