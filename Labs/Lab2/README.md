@@ -27,12 +27,13 @@
 - [`$ netstat`](#netstat)
 ---
 ### hostname
-
+> hostname returns the given nickname of the device.
 ```hostname
 C:\Users\mrdan>hostname
 DAL_Laptop
 ```
 ### env
+> env returns all the environment variables currently on the device.
 ```env
 C:\Users\mrdan>env
 !::=::\
@@ -91,18 +92,20 @@ TERM=xterm-256color
 HOME=/home/mrdan
 ```
 ### ps
+> ps returns information about processes the device is currently running.
 ```ps
 C:\Users\mrdan>ps
       PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
      1878       1    1878      37716  cons0     197609 02:19:53 /usr/bin/ps
 ```
 ### pwd
+> pwd returns the current path and location.
 ```pwd
 C:\Users\mrdan>pwd
 /c/Users/mrdan
 ```
 <h3 id="git-clone">git clone https://github.com/kevinwlu/iot.git</h3>
-
+> git clone makes a copy of whatever repository is at the link location. Here, the link is [https://github.com/kevinwlu/iot.git](https://github.com/kevinwlu/iot)
 ```git clone
 C:\Users\mrdan>git clone https://github.com/kevinwlu/iot.git
 Cloning into 'iot'...
@@ -115,12 +118,14 @@ Resolving deltas: 100% (16572/16572), done.
 Updating files: 100% (408/408), done.
 ```
 ### cd iot
+> cd sets the current location to the stated directory. In this case, it is the iot directory just downloaded with the previous command.
 ```cd iot
 C:\Users\mrdan>cd iot
 
 C:\Users\mrdan\iot>
 ```
 ### ls
+> ls lists the files in the current directory.
 ```ls
 C:\Users\mrdan\iot>ls
 README.md  design     hype      lesson11  lesson4  lesson7  make              standards
@@ -128,27 +133,32 @@ apps       economics  lesson1   lesson2   lesson5  lesson8  projects          sy
 cases      health     lesson10  lesson3   lesson6  lesson9  special_problems  tools
 ```
 ### cd
+> For Windows systems, cd simply returns the current location, similar to pwd.
 ```cd
 C:\Users\mrdan\iot>cd
 C:\Users\mrdan\iot
 ```
 ### df
+> df shows the current free space in the system.
 ```df
 C:\Users\mrdan\iot>df
 Filesystem     1K-blocks      Used Available Use% Mounted on
 C:/msys64      497186812 415980248  81206564  84% /
 ```
 ### mkdir demo
+> mkdir creates a new directory in the current directory. In this case, it is called demo.
 ```mkdir demo
 C:\Users\mrdan\iot>mkdir demo
 ```
 ### cd demo
+> cd demo moves the location to the directory just created, demo.
 ```cd demo
 C:\Users\mrdan\iot>cd demo
 
 C:\Users\mrdan\iot\demo>
 ```
 ### nano file
+> This creates a file called file, that can be edited in the terminal with a UI similar to that below. 
 ```nano file
   GNU nano 5.8                                              file                                                        
 
@@ -181,6 +191,7 @@ C:\Users\mrdan\iot\demo>
 ^X Exit        ^R Read File   ^\ Replace     ^U Paste       ^J Justify     ^/ Go To Line  M-E Redo       M-6 Copy
 ```
 ### cat file
+> cat returns the contents of a given file. Here the given file is file, that was just created.
 ```cat file
 C:\Users\mrdan\iot\demo>cat file
 Exit
@@ -188,6 +199,7 @@ Exit
 How do i leave this file?
 ```
 ### cp file file1
+> cp copies a given file into a second file. This instance copies the file file, and creates a file called file1 with the same contents.
 ```cp file file1
 C:\Users\mrdan\iot\demo>cp file file1
 ```
@@ -198,6 +210,7 @@ Exit
 How do i leave this file?
 ```
 ### mv file file2
+> mv moves and changes the name of a given file. Here it only renames file to file2, as no location was specified.
 ```mv file file2
 C:\Users\mrdan\iot\demo>mv file file2
 ```
@@ -214,6 +227,7 @@ Mode                 LastWriteTime         Length Name
 -a----         4/28/2025   2:36 AM             36 file2
 ```
 ### rm file2
+> rm deletes the given file. Here, file2 is deleted.
 ```rm file2
 C:\Users\mrdan\iot\demo>rm file2
 ```
@@ -229,15 +243,18 @@ Mode                 LastWriteTime         Length Name
 -a----         4/28/2025   2:36 AM             36 file1
 ```
 ### clear
+> clear clears the terminal.
 ```clear
 C:\Users\mrdan\iot\demo>
 ```
 ### man uname
+> man uname is a Linux-only command, hence it didn't work on my Windows device. 
 ```man uname
 C:\Users\mrdan\iot\demo>man uname
 'man' is not recognized as an internal or external command,
 operable program or batch file.
 ```
+> The closest Windows command to man (manual) is --help, and uname --help shows information about the uname command.
 ```uname --help
 C:\Users\mrdan\iot\demo>uname --help
 Usage: uname [OPTION]...
@@ -262,16 +279,19 @@ Full documentation <https://www.gnu.org/software/coreutils/uname>
 or available locally via: info '(coreutils) uname invocation'
 ```
 ### uname -a
+> uname -a prints all information in the order shown above in the uname --help response.  
 ```uname -a
 C:\Users\mrdan\iot\demo>uname -a
 MSYS_NT-10.0-22631 DAL_Laptop 3.3.6-341.x86_64 2022-09-06 08:02 UTC x86_64 Msys
 ```
 ### ifconfig
+> Again, ifconfig is a Linux-only command that does not function on my Windows device. 
 ```ifconfig
 C:\Users\mrdan\iot\demo>ifconfig
 'ifconfig' is not recognized as an internal or external command,
 operable program or batch file.
 ```
+> The closest Windows command to ifconfig is ipconfig, which shows my device's current IP information. 
 ```ipconfig
 C:\Users\mrdan\iot\demo>ipconfig
 
@@ -310,6 +330,7 @@ Ethernet adapter Bluetooth Network Connection:
    Connection-specific DNS Suffix  . :
 ```
 ### ping localhost
+> ping sends packets to test the network connection of a given system. In this case, the localhost means it is my own system that is being tested.
 ```ping localhost
 C:\Users\mrdan\iot\demo>ping localhost
 
@@ -325,6 +346,7 @@ Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 0ms, Average = 0ms
 ```
 ### netstat
+> netstat displays information about my network connections like addresses and states.
 ```netstat
 C:\Users\mrdan\iot\demo>netstat
 
