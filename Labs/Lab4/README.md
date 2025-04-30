@@ -4,6 +4,7 @@
 
 - [`pip installs`](#1)
 - [`Creating "stevens"`](#2)
+- [`Creating "myCPU"`](#3)
 
 To go to the postscript, click [`HERE`](#100)
 
@@ -168,10 +169,42 @@ Password (again):
 Password:
 Password (again):
 Superuser created successfully.
+```
+
 <!-- 47PASSWORD -->
+
+```
+PS C:\Users\mrdan\iot\stevens> python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 30, 2025 - 02:15:18
+Django version 5.2, using settings 'stevens.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
 ```
 
 
+
+<h3 id="3">Creating Django Rest project "myCPU"</h3>
+
+```
+PS C:\Users\mrdan> cd iot
+PS C:\Users\mrdan\iot> django-admin startproject mycpu
+PS C:\Users\mrdan\iot> cd mycpu
+PS C:\Users\mrdan\iot\mycpu> ls
+
+
+    Directory: C:\Users\mrdan\iot\mycpu
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         4/30/2025   2:30 AM                mycpu
+-a----         4/30/2025   2:30 AM            683 manage.py
+
+```
 
 
 
