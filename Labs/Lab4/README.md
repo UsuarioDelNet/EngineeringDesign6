@@ -470,13 +470,6 @@ WARNING: This is a development server. Do not use it in a production deployment.
 ---
 <h4 id="100">Postscript</h4>
 
-- All my source files were initially obtained in [`Dr. Lu's GitHub`](https://github.com/kevinwlu/iot/tree/master/lesson3)
-- Alternatively, they can be found in my [`CodeLab3 File`](https://github.com/UsuarioDelNet/EngineeringDesign6/tree/main/Labs/Lab3/CodeLab3)
-- The packages I had to pip for this lab were
-  - [`GeoPy`](https://geopy.readthedocs.io/en/stable/)
-  - [`Astral`](https://astral.readthedocs.io/en/latest/)
-  - [`psutil`](https://pypi.org/project/psutil/)
-  - [`jdcal`](https://pypi.org/project/jdcal/)
-  - [`pytz`](https://pypi.org/project/pytz/)
+- All my source files were initially obtained in [`Dr. Lu's GitHub`](https://github.com/kevinwlu/iot/tree/master/lesson4)
 - Please note, I replaced all the instances of "python3" with "python" in the commands for the lab, as I had Python downloaded on my system already.
 - I pledge my honor that I have abided by the Stevens Honor Syste
