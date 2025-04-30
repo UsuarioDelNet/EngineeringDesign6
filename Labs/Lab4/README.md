@@ -150,6 +150,26 @@ Mode                 LastWriteTime         Length Name
 -a----         4/28/2025   2:26 AM           3414 script.js
 
 ```
+```
+PS C:\Users\mrdan\iot\stevens> python manage.py makemigrations myapp
+Migrations for 'myapp':
+  myapp\migrations\0001_initial.py
+    + Create model TemperatureData
+PS C:\Users\mrdan\iot\stevens> python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, myapp, sessions
+Running migrations:
+  Applying myapp.0001_initial... OK
+PS C:\Users\mrdan\iot\stevens> python manage.py createsuperuser
+Username (leave blank to use 'mrdan'):
+Email address: mrdan600@gmail.com
+Password:
+Password (again):
+Password:
+Password (again):
+Superuser created successfully.
+<!-- 47PASSWORD -->
+```
 
 
 
