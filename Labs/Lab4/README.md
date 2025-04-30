@@ -5,6 +5,7 @@
 - [`pip installs`](#1)
 - [`Creating "stevens"`](#2)
 - [`Creating "myCPU"`](#3)
+- [`Running Flask`](#4)
 
 To go to the postscript, click [`HERE`](#100)
 
@@ -451,6 +452,19 @@ CPU Usage:        3.1%
 Memory Available: 15.3 GB
 ```
 
+<h3 id="4">Creating Flask project</h3>
+
+```
+C:\Users\mrdan>cd iot
+
+C:\Users\mrdan\iot>cd lesson4
+
+C:\Users\mrdan\iot\lesson4>python hello_world.py
+ * Serving Flask app 'hello_world'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+```
 
 
 ---
