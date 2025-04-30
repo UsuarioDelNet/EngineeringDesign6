@@ -170,9 +170,6 @@ Password:
 Password (again):
 Superuser created successfully.
 ```
-
-<!-- 47PASSWORD -->
-
 ```
 PS C:\Users\mrdan\iot\stevens> python manage.py runserver
 Watching for file changes with StatReloader
@@ -205,7 +202,21 @@ d-----         4/30/2025   2:30 AM                mycpu
 -a----         4/30/2025   2:30 AM            683 manage.py
 
 ```
+```
 
+PS C:\Users\mrdan\iot\mycpu> python manage.py startapp myapp
+PS C:\Users\mrdan\iot\mycpu> ls
+
+
+    Directory: C:\Users\mrdan\iot\mycpu
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         4/30/2025   2:31 AM                myapp
+d-----         4/30/2025   2:31 AM                mycpu
+-a----         4/30/2025   2:30 AM            683 manage.py
+```
 
 
 ---
