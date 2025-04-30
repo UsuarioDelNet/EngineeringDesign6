@@ -225,5 +225,6 @@ Top Ten Words: [('our', 26), ('their', 20), ('has', 20), ('he', 19), ('them', 15
 ---
 <h4 id="14">Postscript</h4>
 
-- To see the screenshots I took of my Terminal, please go to [the Readme file within SourcesLab3](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab3/SourcesLab3/README.md). They are in the same order as this file.
+- All my source files were initially obtained in [`Dr. Lu's GitHub`](https://github.com/kevinwlu/iot/tree/master/lesson3)
+- Alternatively, they can be found in my [`CodeLab3 File`](https://github.com/UsuarioDelNet/EngineeringDesign6/tree/main/Labs/Lab3/CodeLab3)
 - I pledge my honor that I have abided by the Stevens Honor System: Daniel A. Liss
