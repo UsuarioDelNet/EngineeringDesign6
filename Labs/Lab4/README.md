@@ -3,8 +3,7 @@
 ---
 
 - [`pip installs`](#1)
-- [`Creating "stevens`](#2)
-
+- [`Creating "stevens"`](#2)
 
 To go to the postscript, click [`HERE`](#100)
 
@@ -31,6 +30,87 @@ C:\Users\mrdan\iot>cd stevens
 C:\Users\mrdan\iot\stevens>ls
 manage.py  stevens
 ```
+
+```
+C:\Users\mrdan\iot\stevens>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial... OK
+```
+```
+C:\Users\mrdan\iot\stevens>python manage.py startapp myapp
+
+C:\Users\mrdan\iot\stevens>ls
+manage.py  myapp  stevens
+```
+
+```
+C:\Users\mrdan\iot\stevens>cd stevens
+
+C:\Users\mrdan\iot\stevens\stevens>nano settings.py
+```
+```
+ALLOWED_HOSTS = ['*']
+
+
+# Application definition
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'myapp',
+]
+```
+```
+C:\Users\mrdan\iot\stevens\stevens> cp C:\Users\mrdan\iot\lesson4\stevens\urls.py C:\Users\mrdan\iot\stevens\stevens\
+
+C:\Users\mrdan\iot\stevens\stevens>ls
+__init__.py  __pycache__  asgi.py  settings.py  urls.py  wsgi.py
+```
+```
+C:\Users\mrdan\iot\stevens\stevens> cp C:\Users\mrdan\iot\lesson4\stevens\admin.py C:\Users\mrdan\iot\stevens\myapp\
+
+C:\Users\mrdan\iot\stevens\stevens> cp C:\Users\mrdan\iot\lesson4\stevens\models.py C:\Users\mrdan\iot\stevens\myapp\
+
+C:\Users\mrdan\iot\stevens\stevens> cp C:\Users\mrdan\iot\lesson4\stevens\views.py C:\Users\mrdan\iot\stevens\myapp\
+
+C:\Users\mrdan\iot\stevens\stevens>cd..
+
+C:\Users\mrdan\iot\stevens>cd myapp
+
+C:\Users\mrdan\iot\stevens\myapp>ls
+__init__.py  admin.py  apps.py  migrations  models.py  tests.py  views.py
+```
+
+
+
+
+
+
+
+
 
 ---
 <h4 id="100">Postscript</h4>
