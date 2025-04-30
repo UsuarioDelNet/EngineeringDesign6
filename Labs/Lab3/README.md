@@ -18,7 +18,7 @@
 - [`$ python3 documentstats.py document.txt`](#13)
 
 
-[Postscript](#14)
+To go to the postscript, click [`HERE`](#14)
 
 ---
 
@@ -224,6 +224,6 @@ Top Ten Words: [('our', 26), ('their', 20), ('has', 20), ('he', 19), ('them', 15
 
 ---
 <h4 id="14">Postscript</h4>
- Postscript
+
 - To see the screenshots I took of my Terminal, please go to [the Readme file within SourcesLab3](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab3/SourcesLab3/README.md). They are in the same order as this file.
 - I pledge my honor that I have abided by the Stevens Honor System: Daniel A. Liss
