@@ -480,4 +480,4 @@ WARNING: This is a development server. Do not use it in a production deployment.
 
 - All my source files were initially obtained in [`Dr. Lu's GitHub`](https://github.com/kevinwlu/iot/tree/master/lesson4)
 - Please note, I replaced all the instances of "python3" with "python" in the commands for the lab, as I had Python downloaded on my system already.
-- I pledge my honor that I have abided by the Stevens Honor Syste
+- I pledge my honor that I have abided by the Stevens Honor System: Daniel A. Liss
