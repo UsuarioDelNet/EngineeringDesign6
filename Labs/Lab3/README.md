@@ -228,9 +228,9 @@ Top Ten Words: [('our', 26), ('their', 20), ('has', 20), ('he', 19), ('them', 15
 - All my source files were initially obtained in [`Dr. Lu's GitHub`](https://github.com/kevinwlu/iot/tree/master/lesson3)
 - Alternatively, they can be found in my [`CodeLab3 File`](https://github.com/UsuarioDelNet/EngineeringDesign6/tree/main/Labs/Lab3/CodeLab3)
 - The packages I had to pip for this lab were
-  - [GeoPy](https://geopy.readthedocs.io/en/stable/)
-  - [Astral](https://astral.readthedocs.io/en/latest/)
-  - [psutil](https://pypi.org/project/psutil/)
-  - [jdcal](https://pypi.org/project/jdcal/)
-  - [pytz](https://pypi.org/project/pytz/)
+  - [`GeoPy`](https://geopy.readthedocs.io/en/stable/)
+  - [`Astral`](https://astral.readthedocs.io/en/latest/)
+  - [`psutil`](https://pypi.org/project/psutil/)
+  - [`jdcal`](https://pypi.org/project/jdcal/)
+  - [`pytz`](https://pypi.org/project/pytz/)
 - I pledge my honor that I have abided by the Stevens Honor System: Daniel A. Liss
