@@ -45,6 +45,8 @@ I love fútbol! The club I support is my hometown club [Deportivo de La Coruña]
 
 **What music I listen to:** I love all styles of music. My Spotify playlist is currently at 1425 songs (and counting)!
 
+> “Without music, life would be a mistake.” -- Friedrich Nietzsche
+
 [`My Resume`](SourceFolder/ResumeFirstDraft.pdf)
 ---
 ![Dan Not Found](SourceFolder/MeAsl.jpg)
