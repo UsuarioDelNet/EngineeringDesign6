@@ -203,7 +203,6 @@ d-----         4/30/2025   2:30 AM                mycpu
 
 ```
 ```
-
 PS C:\Users\mrdan\iot\mycpu> python manage.py startapp myapp
 PS C:\Users\mrdan\iot\mycpu> ls
 
@@ -217,6 +216,69 @@ d-----         4/30/2025   2:31 AM                myapp
 d-----         4/30/2025   2:31 AM                mycpu
 -a----         4/30/2025   2:30 AM            683 manage.py
 ```
+```
+PS C:\Users\mrdan\iot\mycpu\mycpu> nano settings.py
+```
+```
+ALLOWED_HOSTS = ['*']
+
+
+# Application definition
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'myapp',
+    'rest_framework',
+]
+```
+```
+PS C:\Users\mrdan\iot\mycpu\mycpu> cp C:/Users/mrdan/iot/lesson4/mycpu/urls.py
+PS C:\Users\mrdan\iot\mycpu\mycpu> ls
+
+
+    Directory: C:\Users\mrdan\iot\mycpu\mycpu
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         4/30/2025   2:31 AM                __pycache__
+-a----         4/30/2025   2:30 AM            403 asgi.py
+-a----         4/30/2025   2:35 AM           3318 settings.py
+-a----         4/28/2025   2:26 AM           1505 urls.py
+-a----         4/30/2025   2:30 AM            403 wsgi.py
+-a----         4/30/2025   2:30 AM              0 __init__.py
+```
+```
+PS C:\Users\mrdan\iot\mycpu\myapp> cp C:/Users/mrdan/iot/lesson4/mycpu/admin.py
+PS C:\Users\mrdan\iot\mycpu\myapp> cp C:/Users/mrdan/iot/lesson4/mycpu/models.py
+PS C:\Users\mrdan\iot\mycpu\myapp> cp C:/Users/mrdan/iot/lesson4/mycpu/views.py
+PS C:\Users\mrdan\iot\mycpu\myapp> cp C:/Users/mrdan/iot/lesson4/mycpu/serializers.py
+PS C:\Users\mrdan\iot\mycpu\myapp> ls
+
+
+    Directory: C:\Users\mrdan\iot\mycpu\myapp
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         4/30/2025   2:31 AM                migrations
+-a----         4/28/2025   2:26 AM            140 admin.py
+-a----         4/30/2025   2:31 AM            148 apps.py
+-a----         4/28/2025   2:26 AM            509 models.py
+-a----         4/28/2025   2:26 AM            485 serializers.py
+-a----         4/30/2025   2:31 AM             63 tests.py
+-a----         4/28/2025   2:26 AM           1483 views.py
+-a----         4/30/2025   2:31 AM              0 __init__.py
+```
+
+
+
+
 
 
 ---
