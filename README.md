@@ -28,13 +28,13 @@
 2. [**Lab 2**](https://github.com/UsuarioDelNet/EngineeringDesign6/tree/main/Labs/Lab2)
 3. [**Lab 3**](https://github.com/UsuarioDelNet/EngineeringDesign6/tree/main/Labs/Lab3)
 <!-- 4. [**Lab 4**]() -->
-5. [**Lab 5**]()
-6. [**Lab 6**]()
-7. [**Lab 7**]()
-8. [**Lab 8**]()
-9. [**Lab 9**]()
-10. [**Lab 10**]()
-11. [**Lab 11**]()
+<!-- 5. [**Lab 5**]() -->
+<!-- 6. [**Lab 6**]() -->
+<!-- 7. [**Lab 7**]() -->
+<!-- 8. [**Lab 8**]() -->
+<!-- 9. [**Lab 9**]() -->
+<!-- 10. [**Lab 10**]() -->
+<!-- 11. [**Lab 11**]() -->
 
 ---
 ### About Me
