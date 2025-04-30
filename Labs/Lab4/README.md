@@ -182,6 +182,8 @@ Django version 5.2, using settings 'stevens.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
+![AdminTemp](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab4/SourcesLab4/djangoadmintemp.png)
+![MyApp](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab4/SourcesLab4/myappfunctions.png)
 
 
 
@@ -451,6 +453,11 @@ Memory Available: 15.2 GB
 CPU Usage:        3.1%
 Memory Available: 15.3 GB
 ```
+![DTLIST](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab4/SourcesLab4/DTLIST.png)
+![CPULIST](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab4/SourcesLab4/CPULIST.png)
+![MEMLIST](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab4/SourcesLab4/MEMLIST.png)
+![AdminLocation](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab4/SourcesLab4/djangoadminlocation.png)
+![MyCPU](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab4/SourcesLab4/mycpufunctions.png)
 
 <h3 id="4">Creating Flask project</h3>
 
@@ -465,6 +472,7 @@ C:\Users\mrdan\iot\lesson4>python hello_world.py
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
  * Running on http://127.0.0.1:5000
 ```
+![Hallo Worl](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab4/SourcesLab4/helloworldpy.png)
 
 
 ---
