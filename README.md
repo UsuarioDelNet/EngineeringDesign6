@@ -41,7 +41,7 @@
 **My name is:** *Daniel Andres Liss Pan*
 
 **Hobbies?**
-I love fútbol! The club I support is my hometown club [Deportivo de La Coruña](https://www.rcdeportivo.es/) , but I follow a ton of different teams. I also play guitar and play a lot of videogames with friends.
+I love fútbol! The club I support is my hometown club [Deportivo de La Coruña](https://www.rcdeportivo.es/) , but I follow a ton of different teams. I also play guitar and play videogames with friends.
 
 **What music I listen to:** I love all styles of music. My Spotify playlist is currently at 1425 songs (and counting)!
 
