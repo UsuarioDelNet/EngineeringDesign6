@@ -103,10 +103,53 @@ C:\Users\mrdan\iot\stevens>cd myapp
 C:\Users\mrdan\iot\stevens\myapp>ls
 __init__.py  admin.py  apps.py  migrations  models.py  tests.py  views.py
 ```
+```
+C:\Users\mrdan\iot\stevens\myapp>mkdir static templates
+
+C:\Users\mrdan\iot\stevens\myapp>cd templates
+
+C:\Users\mrdan\iot\stevens\myapp\templates>mkdir myapp
+
+C:\Users\mrdan\iot\stevens\myapp\templates> cp C:\Users\mrdan\iot\lesson4\stevens\index.html C:\Users\mrdan\iot\stevens\myapp\templates\myapp
+
+C:\Users\mrdan\iot\stevens\myapp\templates>cd myapp
+
+C:\Users\mrdan\iot\stevens\myapp\templates\myapp>ls
+index.html
+```
+```
+PS C:\Users\mrdan\iot\stevens\myapp\templates\myapp> nano index.html
+```
+```
+PS C:\Users\mrdan\iot\stevens\myapp\static> cp C:\Users\mrdan\iot\lesson4\static\favicon.ico
+PS C:\Users\mrdan\iot\stevens\myapp\static> ls
 
 
+    Directory: C:\Users\mrdan\iot\stevens\myapp\static
 
 
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         4/28/2025   2:26 AM          15406 favicon.ico
+
+```
+```
+PS C:\Users\mrdan\iot\stevens\myapp\static\myapp> cp C:\Users\mrdan\iot\lesson4\static\*css .
+PS C:\Users\mrdan\iot\stevens\myapp\static\myapp> cp C:\Users\mrdan\iot\lesson4\static\*js .
+PS C:\Users\mrdan\iot\stevens\myapp\static\myapp> ls
+
+
+    Directory: C:\Users\mrdan\iot\stevens\myapp\static\myapp
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         4/28/2025   2:26 AM         232920 bootstrap.min.css
+-a----         4/28/2025   2:26 AM          60356 bootstrap.min.js
+-a----         4/28/2025   2:26 AM          87464 jquery.min.js
+-a----         4/28/2025   2:26 AM           3414 script.js
+
+```
 
 
 
