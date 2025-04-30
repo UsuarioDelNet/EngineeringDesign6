@@ -25,6 +25,9 @@
 - [`$ ifconfig`](#ifconfig)
 - [`$ ping localhost`](#ping-localhost)
 - [`$ netstat`](#netstat)
+
+To go to the postscript, click [`HERE`](#29)
+
 ---
 ### hostname
 > hostname returns the given nickname of the device.
@@ -504,9 +507,10 @@ Active Connections
   TCP    [::1]:49701            DAL_Laptop:49700       ESTABLISHED
 ```
 ---
-#### Postscript
-- To see the screenshots I took of my Terminal, please go to [the Readme file within SourcesLab2](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/README.md). They are in the same order as this file.
+<h4 id="29">Postscript</h4>
+
+- To see the screenshots I took of my Terminal, please go to [`the Readme file within SourcesLab2`](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab2/SourcesLab2/README.md). They are in the same order as this file.
 - Please note I used the following online sources to aid me:
-  - [Git.com](https://git-scm.com/downloads/win) to download Git in order to properly run git clone in my terminal.
-  - [GeeksforGeeks](https://www.geeksforgeeks.org/linux-vs-windows-commands/) to convert any Linux commands that didn't work to Windows.
+  - [`Git.com`](https://git-scm.com/downloads/win) to download Git in order to properly run git clone in my terminal.
+  - [`GeeksforGeeks`](https://www.geeksforgeeks.org/linux-vs-windows-commands/) to convert any Linux commands that didn't work to Windows.
 - I pledge my honor that I have abided by the Stevens Honor System: Daniel A. Liss
