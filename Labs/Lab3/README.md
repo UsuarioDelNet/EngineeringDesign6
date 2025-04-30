@@ -234,5 +234,5 @@ Top Ten Words: [('our', 26), ('their', 20), ('has', 20), ('he', 19), ('them', 15
   - [`psutil`](https://pypi.org/project/psutil/)
   - [`jdcal`](https://pypi.org/project/jdcal/)
   - [`pytz`](https://pypi.org/project/pytz/)
-- Please note, I replaced all "python3" with "python", as I had Python downloaded on my system already.
+- Please note, I replaced all the instances of "python3" with "python" in the commands for the lab, as I had Python downloaded on my system already.
 - I pledge my honor that I have abided by the Stevens Honor System: Daniel A. Liss
