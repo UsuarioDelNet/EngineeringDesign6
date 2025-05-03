@@ -10,7 +10,11 @@ To go to the postscript, click [`HERE`](#100)
 <h3 id="1">pip installs</h3>
 
 ```
-C:\Users\mrdan>pip install paho-mqtt
+C:\Users\mrdan>cd iot
+
+C:\Users\mrdan\iot>cd *5
+
+C:\Users\mrdan\iot\lesson5>pip install paho-mqtt
 Collecting paho-mqtt
   Using cached paho_mqtt-2.1.0-py3-none-any.whl.metadata (23 kB)
 Using cached paho_mqtt-2.1.0-py3-none-any.whl (67 kB)
