@@ -1,5 +1,5 @@
 # Engineering Design VI `CPE 322-A`
-## Lab 4 — Django and Flask
+## Lab 4 — Paho-MQTT
 ---
 
 - [`pip installs`](#1)
