@@ -55,10 +55,28 @@ PS C:\Users\mrdan\iot\lesson5> python subcpu.py
 C:\Users\mrdan\iot\lesson5\subcpu.py:8: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
   client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1)
 Connected with result code 0
-MyCPU 2025-05-03 23:41:38
-MyCPU CPU Usage:   1.9 %
-MyCPU 2025-05-03 23:41:48
-MyCPU CPU Usage:   2.1 %
+MyCPU 2025-05-03 23:52:25
+MyCPU CPU Usage:   3.0 %
+MyCPU 2025-05-03 23:52:35
+MyCPU CPU Usage:   2.5 %
+MyCPU 2025-05-03 23:52:45
+MyCPU CPU Usage:   2.0 %
+MyCPU 2025-05-03 23:52:55
+MyCPU CPU Usage:   2.2 %
+```
+
+```
+PS C:\Users\mrdan\iot\lesson5> python pubcpu.py
+C:\Users\mrdan\iot\lesson5\pubcpu.py:6: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+  mqttc = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1)
+2025-05-03 23:52:25
+CPU Usage:   3.0 %
+2025-05-03 23:52:35
+CPU Usage:   2.5 %
+2025-05-03 23:52:45
+CPU Usage:   2.0 %
+2025-05-03 23:52:55
+CPU Usage:   2.2 %
 ```
 
 ---
