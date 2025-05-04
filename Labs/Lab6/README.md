@@ -2,7 +2,7 @@
 ## Lab 6 — Node.js and Pystache
 ---
 
-- [`pip installs`](#1)
+- [`installing node.js`](#1)
 - [`running paho-mqtt`](#2)
 - [`running mosquitto`](#3)
 - [`tests`](#4)
@@ -11,15 +11,15 @@
 To go to the postscript, click [`HERE`](#100)
 
 ---
-<h3 id="1">pip installs</h3>
+<h3 id="1">installing node.js</h3>
 
+> I used ![`this site`](https://nodejs.org/en/download) to download node.js
 ```
-C:\Users\mrdan>pip install paho-mqtt
-Collecting paho-mqtt
-  Using cached paho_mqtt-2.1.0-py3-none-any.whl.metadata (23 kB)
-Using cached paho_mqtt-2.1.0-py3-none-any.whl (67 kB)
-Installing collected packages: paho-mqtt
-Successfully installed paho-mqtt-2.1.0
+C:\Users\mrdan>node -v
+v22.15.0
+
+C:\Users\mrdan>npm -v
+10.9.2
 ```
 
 <h3 id="2">running paho-mqtt</h3>
