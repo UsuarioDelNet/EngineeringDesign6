@@ -342,6 +342,81 @@ UV_THREADPOOL_SIZE            sets the number of threads used in libuv's
 Documentation can be found at https://nodejs.org/
 ```
 
+```
+C:\Users\mrdan>cd iot
+C:\Users\mrdan\iot>cd *6
+C:\Users\mrdan\iot\lesson6>node hello-world.js
+Server running at http://127.0.0.1:3000/
+```
+```
+PS C:\Users\mrdan> cd iot
+PS C:\Users\mrdan\iot> cd *6
+PS C:\Users\mrdan\iot\lesson6> node hello.js
+Server running at http://127.0.0.1:8080/
+```
+```
+C:\Users\mrdan\iot\lesson6>node http.js
+0
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+```
+
+```
+C:\Users\mrdan\iot\lesson6>pip install pystache
+Collecting pystache
+  Downloading pystache-0.6.8-py3-none-any.whl.metadata (14 kB)
+Downloading pystache-0.6.8-py3-none-any.whl (82 kB)
+Installing collected packages: pystache
+Successfully installed pystache-0.6.8
+```
+```
+C:\Users\mrdan\iot\lesson6>cat say_hello.mustache
+Hello, {{to}}!
+```
+```
+C:\Users\mrdan\iot\lesson6>cat say_hello.py
+# https://github.com/defunkt/pystache
+import pystache
+print(pystache.render('Hi {{person}}!', {'person': 'Alexa'}))
+
+# Create dedicated view classes to hold view logic
+class SayHello(object):
+    def to(self):
+        return "World"
+hello = SayHello()
+
+# Use template in say_hello.mustache
+renderer = pystache.Renderer()
+print(renderer.render(hello))
+
+# Pre-parse a template
+parsed = pystache.parse('Hey {{#who}}{{.}}!{{/who}}')
+print(parsed)
+print(renderer.render(parsed, {'who': 'Google'}))
+print(renderer.render(parsed, {'who': 'Siri'}))
+```
+```
+C:\Users\mrdan\iot\lesson6>python say_hello.py
+Hi Alexa!
+Hello, World!
+
+['Hey ', _SectionNode(key='who', index_begin=12, index_end=18, parsed=[_EscapeNode(key='.'), '!'])]
+Hey Google!
+Hey Siri!
+```
 
 ---
 <h4 id="100">Postscript</h4>
