@@ -31,6 +31,36 @@ Receiving objects: 100% (6053/6053), 1.68 MiB | 2.15 MiB/s, done.
 Resolving deltas: 100% (3394/3394), done.
 ```
 
+```HELLOOOOO
+PS C:\Users\mrdan> cd iot
+PS C:\Users\mrdan\iot> cd *5
+PS C:\Users\mrdan\iot\lesson5> python sub.py
+C:\Users\mrdan\iot\lesson5\sub.py:8: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+  client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1)
+Connected with result code 0
+paho/test Hello
+```
+
+```mult
+PS C:\Users\mrdan\iot\lesson5> python sub-multiple.py
+C:\Users\mrdan\iot\lesson5\sub-multiple.py:8: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+  client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1)
+Connected with result code 0
+paho/test/multiple multiple 1
+paho/test/multiple multiple 2
+```
+
+```
+PS C:\Users\mrdan\iot\lesson5> python subcpu.py
+C:\Users\mrdan\iot\lesson5\subcpu.py:8: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+  client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1)
+Connected with result code 0
+MyCPU 2025-05-03 23:41:38
+MyCPU CPU Usage:   1.9 %
+MyCPU 2025-05-03 23:41:48
+MyCPU CPU Usage:   2.1 %
+```
+
 ---
 <h4 id="100">Postscript</h4>
 
