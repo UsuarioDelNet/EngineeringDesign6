@@ -355,6 +355,8 @@ C:\Users\mrdan\iot>cd *6
 C:\Users\mrdan\iot\lesson6>node hello-world.js
 Server running at http://127.0.0.1:3000/
 ```
+![hello-world.js](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab6/SourcesLab6/hiloComaWorl.png)
+
 
 <h3 id="3">running hello.js</h3>
 
@@ -364,6 +366,8 @@ PS C:\Users\mrdan\iot> cd *6
 PS C:\Users\mrdan\iot\lesson6> node hello.js
 Server running at http://127.0.0.1:8080/
 ```
+![hello.js](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab6/SourcesLab6/hiloWorl.png)
+
 
 <h3 id="4">running http.js</h3>
 
@@ -386,6 +390,8 @@ C:\Users\mrdan\iot\lesson6>node http.js
 13
 14
 ```
+![http.js](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab6/SourcesLab6/refesh.png)
+
 
 <h3 id="5">installing pystache</h3>
 
