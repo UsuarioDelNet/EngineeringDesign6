@@ -6,6 +6,9 @@
 - [`running hello-world.js`](#2)
 - [`running hello.js`](#3)
 - [`running https.js`](#4)
+- [`installing pystache`](#5)
+- [`running cat say_hello`](#6)
+- [`running python say_hello.py`](#7)
 
 To go to the postscript, click [`HERE`](#100)
 
@@ -385,6 +388,8 @@ C:\Users\mrdan\iot\lesson6>node http.js
 14
 ```
 
+<h3 id="5">installing pystache</h3>
+
 ```
 C:\Users\mrdan\iot\lesson6>pip install pystache
 Collecting pystache
@@ -393,6 +398,10 @@ Downloading pystache-0.6.8-py3-none-any.whl (82 kB)
 Installing collected packages: pystache
 Successfully installed pystache-0.6.8
 ```
+
+<h3 id="6">running cat say_hello</h3>
+
+
 ```
 C:\Users\mrdan\iot\lesson6>cat say_hello.mustache
 Hello, {{to}}!
@@ -419,6 +428,9 @@ print(parsed)
 print(renderer.render(parsed, {'who': 'Google'}))
 print(renderer.render(parsed, {'who': 'Siri'}))
 ```
+
+<h3 id="7">running python say_hello.py</h3>
+
 ```
 C:\Users\mrdan\iot\lesson6>python say_hello.py
 Hi Alexa!
