@@ -13,7 +13,7 @@ To go to the postscript, click [`HERE`](#100)
 ---
 <h3 id="1">installing node.js</h3>
 
-> I used ![`this site`](https://nodejs.org/en/download) to download node.js
+> I used [`this site`](https://nodejs.org/en/download) to download node.js
 ```
 C:\Users\mrdan>node -v
 v22.15.0
