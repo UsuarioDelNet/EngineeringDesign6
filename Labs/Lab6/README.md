@@ -1,5 +1,5 @@
 # Engineering Design VI `CPE 322-A`
-## Lab 5 — Paho-MQTT
+## Lab 6 — Node.js and Pystache
 ---
 
 - [`pip installs`](#1)
