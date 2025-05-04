@@ -31,6 +31,20 @@ Receiving objects: 100% (6053/6053), 1.68 MiB | 2.15 MiB/s, done.
 Resolving deltas: 100% (3394/3394), done.
 ```
 
+```
+C:\Users\mrdan>cd "C:\Program Files\mosquitto"
+
+C:\Program Files\mosquitto>mosquitto.exe -v
+1746330689: mosquitto version 2.0.21 starting
+1746330689: Using default config.
+1746330689: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1746330689: Create a configuration file which defines a listener to allow remote access.
+1746330689: For more details see https://mosquitto.org/documentation/authentication-methods/
+1746330689: Opening ipv4 listen socket on port 1883.
+1746330689: Opening ipv6 listen socket on port 1883.
+1746330689: mosquitto version 2.0.21 running
+```
+
 ```HELLOOOOO
 PS C:\Users\mrdan> cd iot
 PS C:\Users\mrdan\iot> cd *5
