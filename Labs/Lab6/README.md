@@ -3,6 +3,9 @@
 ---
 
 - [`installing node.js`](#1)
+- [`running hello-world.js`](#2)
+- [`running hello.js`](#3)
+- [`running https.js`](#4)
 
 To go to the postscript, click [`HERE`](#100)
 
@@ -342,18 +345,26 @@ UV_THREADPOOL_SIZE            sets the number of threads used in libuv's
 Documentation can be found at https://nodejs.org/
 ```
 
+<h3 id="2">running hello-world.js</h3>
+
 ```
 C:\Users\mrdan>cd iot
 C:\Users\mrdan\iot>cd *6
 C:\Users\mrdan\iot\lesson6>node hello-world.js
 Server running at http://127.0.0.1:3000/
 ```
+
+<h3 id="3">running hello.js</h3>
+
 ```
 PS C:\Users\mrdan> cd iot
 PS C:\Users\mrdan\iot> cd *6
 PS C:\Users\mrdan\iot\lesson6> node hello.js
 Server running at http://127.0.0.1:8080/
 ```
+
+<h3 id="4">running http.js</h3>
+
 ```
 C:\Users\mrdan\iot\lesson6>node http.js
 0
