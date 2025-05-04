@@ -3,6 +3,9 @@
 ---
 
 - [`pip installs`](#1)
+- [`running paho-mqtt`](#2)
+- [`running mosquitto`](#3)
+- [`tests`](#4)
 
 To go to the postscript, click [`HERE`](#100)
 
@@ -31,6 +34,8 @@ Receiving objects: 100% (6053/6053), 1.68 MiB | 2.15 MiB/s, done.
 Resolving deltas: 100% (3394/3394), done.
 ```
 
+<h3 id="3">running mosquitto</h3>
+
 ```
 C:\Users\mrdan>cd "C:\Program Files\mosquitto"
 
@@ -44,6 +49,8 @@ C:\Program Files\mosquitto>mosquitto.exe -v
 1746330689: Opening ipv6 listen socket on port 1883.
 1746330689: mosquitto version 2.0.21 running
 ```
+
+<h3 id="4">tests</h3>
 
 ```HELLOOOOO
 PS C:\Users\mrdan> cd iot
