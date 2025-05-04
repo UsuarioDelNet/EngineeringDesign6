@@ -6,6 +6,7 @@
 - [`running paho-mqtt`](#2)
 - [`running mosquitto`](#3)
 - [`tests`](#4)
+- [`cpu`](#5)
 
 To go to the postscript, click [`HERE`](#100)
 
@@ -70,6 +71,10 @@ Connected with result code 0
 paho/test/multiple multiple 1
 paho/test/multiple multiple 2
 ```
+
+
+<h3 id="5">cpu</h3>
+
 
 ```
 PS C:\Users\mrdan\iot\lesson5> python subcpu.py
