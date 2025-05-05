@@ -1,5 +1,5 @@
 # Engineering Design VI `CPE 322-A`
-## Lab 6 — Node.js and Pystache
+## Lab 7 — ThingSpeak and Google Sheets
 ---
 
 - [`installing node.js`](#1)
