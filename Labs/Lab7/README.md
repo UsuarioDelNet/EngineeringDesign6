@@ -13,6 +13,9 @@ To go to the postscript, click [`HERE`](#100)
 ---
 <h3 id="1">making the cpu_loop channel</h3>
 
+![Making channel](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab7/SourcesLab7/tschannel.png)
+
+
 
 <h3 id="2">running thingspeak_feed.py</h3>
 
@@ -36,7 +39,7 @@ Mode                 LastWriteTime         Length Name
 -a----         4/28/2025   2:26 AM           2533 thingspeak_feed.py
 
 PS C:\Users\mrdan\iot\demo> python thingspeak_feed.py
-An API key savefile was not found. Enter Write API Key >>> QUUKEQUZNLGCNVSU
+An API key savefile was not found. Enter Write API Key >>> [                    ]
 Should we save this key for future use? [y/N] >>> y
 13.5
 16401.5703125
@@ -55,6 +58,10 @@ Thu, 08 May 2025 23:52:11
 Thu, 08 May 2025 23:53:11
 200 OK
 ```
+![Charts](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab7/SourcesLab7/tsCharts.png)
+
+
+
 
 <h3 id="3">setting up cpudata</h3>
 
@@ -179,6 +186,9 @@ CPU Usage:        3.6%
 Memory Available: 17.5 GB
 Wrote a row to cpudata
 ```
+
+![CPU Sheet](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab7/SourcesLab7/cpudataSheet.png)
+
 
 ---
 <h4 id="100">Postscript</h4>
