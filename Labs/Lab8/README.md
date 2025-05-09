@@ -51,30 +51,38 @@ root@edf037135e0e:/# apt update
 PS C:\Users\mrdan\iot\lesson8> python pyplot_simple.py
 Matplotlib is building the font cache; this may take a moment.
 ```
+![pyplotsimple](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/pyplotSimple.png)
 
 ```
 PS C:\Users\mrdan\iot\lesson8> python simple_plot.py
 ```
+![simpleplot](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/simplePlot.png)
 
 ```
 PS C:\Users\mrdan\iot\lesson8> python pyplot_formatstr.py
 ```
+![formastr](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/pyplotFormatstr.png)
 
-```
-PS C:\Users\mrdan\iot\lesson8> python pyplot_formatstr.py
-```
 ```
 PS C:\Users\mrdan\iot\lesson8> python ticklabels_demo_rotation.py
 ```
+![tickLab](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/tickLablesDemo.png)
+
 ```
 PS C:\Users\mrdan\iot\lesson8> python pyplot_three.py
 ```
+![3](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/pyplot3.png)
+
 ```
 PS C:\Users\mrdan\iot\lesson8> python pyplot_two_subplots.py
 ```
+![2sub](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/python2sub.png)
+
 ```
 PS C:\Users\mrdan\iot\lesson8> python major_minor_demo1.py
 ```
+![2sub](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/majMin.png)
+
 ```
 PS C:\Users\mrdan\iot\lesson8> python titanic_1.py
 Data Columns:
@@ -87,7 +95,10 @@ female    0.742038
 male      0.188908
 Name: Survived, dtype: float64
 ```
+![titanic](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/titanic1.png)
+
 ```
+PS C:\Users\mrdan\iot\lesson8> python titanic_2.py
 Survived:
 Sex     Pclass
 female  1         0.968085
