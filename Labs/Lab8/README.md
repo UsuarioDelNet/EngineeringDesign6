@@ -4,6 +4,7 @@
 
 - [`pip installs`](#1)
 - [`running examples`](#2)
+- [`running cpudata graphs`](#2)
 
 To go to the postscript, click [`HERE`](#100)
 
@@ -125,6 +126,8 @@ male    1       0               0.000000
 Name: Survived, dtype: float64
 ```
 
+
+<h3 id="3">running cpudata graphs</h3>
 
 ```
 PS C:\Users\mrdan\iot\demo> cp C:\Users\mrdan\Downloads\cpudata.csv
