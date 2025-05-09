@@ -103,11 +103,6 @@ Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
 Installing collected packages: pyasn1, oauthlib, httplib2, cachetools, rsa, requests-oauthlib, pyasn1-modules, oauth2client, google-auth, google-auth-oauthlib, gspread
 Successfully installed cachetools-5.5.2 google-auth-2.40.1 google-auth-oauthlib-1.2.2 gspread-6.2.0 httplib2-0.22.0 oauth2client-4.1.3 oauthlib-3.2.2 pyasn1-0.6.1 pyasn1-modules-0.4.2 requests-oauthlib-2.0.0 rsa-4.9.1
 ```
-
-
-
-<h3 id="4">running cpu_spreadsheet.py</h3>
-
 ```
 PS C:\Users\mrdan> cd iot
 PS C:\Users\mrdan\iot> cd demo
@@ -133,6 +128,10 @@ d-----          5/9/2025   8:19 AM                __pycache__
                                                   py
 -a----         4/28/2025   2:26 AM           2533 thingspeak_feed.py
 ```
+
+
+<h3 id="4">running cpu_spreadsheet.py</h3>
+
 
 ```
 PS C:\Users\mrdan\iot\demo> nano cpu_spreadsheet.py
