@@ -31,7 +31,7 @@
 5. [**Lab 5**](https://github.com/UsuarioDelNet/EngineeringDesign6/tree/main/Labs/Lab5)
 6. [**Lab 6**](https://github.com/UsuarioDelNet/EngineeringDesign6/tree/main/Labs/Lab6)
 7. [**Lab 7**](https://github.com/UsuarioDelNet/EngineeringDesign6/tree/main/Labs/Lab7)
-<!-- 8. [**Lab 8**]() -->
+8. [**Lab 8**](https://github.com/UsuarioDelNet/EngineeringDesign6/tree/main/Labs/Lab8)
 <!-- 9. [**Lab 9**]() -->
 <!-- 10. [**Lab 10**]() -->
 <!-- 11. [**Lab 11**]() -->
