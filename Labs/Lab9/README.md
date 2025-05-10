@@ -393,15 +393,6 @@ PS C:\Users\mrdan\iot\demo> explorer.exe .
 ```
 
 
-```
-C:\Users\mrdan\iot\lesson9>pyang -f yin -o intrusiondetection.yin intrusiondetection.yang
-
-C:\Users\mrdan\iot\lesson9>pyang -f uml -o intrusiondetection.uml intrusiondetection.yang --uml-no=stereotypes,annotation,typedef
-
-C:\Users\mrdan\iot\lesson9>python -m plantuml intrusiondetection.uml
-[{'filename': 'intrusiondetection.uml', 'gen_success': True}]
-```
-
 ![png](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab9/SourcesLab9/intrusiondetection.png)
 
 
