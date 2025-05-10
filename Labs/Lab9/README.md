@@ -1,151 +1,76 @@
 # Engineering Design VI `CPE 322-A`
-## Lab 8 — Data Analysis
+## Lab 9 — YANG
 ---
 
-- [`pip installs`](#1)
-- [`running examples`](#2)
-- [`running cpudata graphs`](#2)
+- [`running ubuntu`](#1)
+- [`pip installs`](#2)
+- [`running YANG`](#3)
 
 To go to the postscript, click [`HERE`](#100)
 
 ---
-<h3 id="1">pip installs</h3>
 
 ```
-C:\Users\mrdan>docker pull tensorflow/tensorflow
-Using default tag: latest
-error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/images/create?fromImage=docker.io%2Ftensorflow%2Ftensorflow&tag=latest": open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+C:\Users\mrdan>wsl --install -d Ubuntu
+Downloading: Ubuntu
+Installing: Ubuntu
+Distribution successfully installed. It can be launched via 'wsl.exe -d Ubuntu'
 
-C:\Users\mrdan>docker pull tensorflow/tensorflow:latest-py3
-latest-py3: Pulling from tensorflow/tensorflow
-Digest: sha256:14ec674cefd622aa9d45f07485500da254acaf8adfef80bd0f279db03c735689
-Status: Image is up to date for tensorflow/tensorflow:latest-py3
-docker.io/tensorflow/tensorflow:latest-py3
+C:\Users\mrdan>wsl.exe -d Ubuntu
+Provisioning the new WSL instance Ubuntu
+This might take a while...
+Create a default Unix user account: mrd
+New password:
+Retype new password:
+passwd: password updated successfully
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
 
-C:\Users\mrdan>docker run -it tensorflow/tensorflow bash
+Welcome to Ubuntu 24.04.2 LTS (GNU/Linux 5.15.167.4-microsoft-standard-WSL2 x86_64)
 
-________                               _______________
-___  __/__________________________________  ____/__  /________      __
-__  /  _  _ \_  __ \_  ___/  __ \_  ___/_  /_   __  /_  __ \_ | /| / /
-_  /   /  __/  / / /(__  )/ /_/ /  /   _  __/   _  / / /_/ /_ |/ |/ /
-/_/    \___//_/ /_//____/ \____//_/    /_/      /_/  \____/____/|__/
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Fri May  9 20:35:39 EDT 2025
+
+  System load:  0.56                Processes:             32
+  Usage of /:   0.1% of 1006.85GB   Users logged in:       0
+  Memory usage: 3%                  IPv4 address for eth0: 172.29.206.251
+  Swap usage:   0%
 
 
-WARNING: You are running this container as root, which can cause new files in
-mounted volumes to be created as the root user on your host machine.
-
-To avoid this, run the container by specifying your user's userid:
-
-$ docker run -u $(id -u):$(id -g) args...
-
-root@edf037135e0e:/# apt update
-... [Too long to include the entire setup process here]
+This message is shown once a day. To disable it please create the
+/home/mrd/.hushlogin file.
 ```
 
-
-
-<h3 id="2">running examples</h3>
-
+<h3 id="2">pip installs</h3>
 
 ```
-PS C:\Users\mrdan\iot\lesson8> python pyplot_simple.py
-Matplotlib is building the font cache; this may take a moment.
-```
-![pyplotsimple](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/pyplotSimple.png)
-
-```
-PS C:\Users\mrdan\iot\lesson8> python simple_plot.py
-```
-![simpleplot](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/simplePlot.png)
-
-```
-PS C:\Users\mrdan\iot\lesson8> python pyplot_formatstr.py
-```
-![formastr](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/pyplotFormatstr.png)
-
-```
-PS C:\Users\mrdan\iot\lesson8> python ticklabels_demo_rotation.py
-```
-![tickLab](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/tickLablesDemo.png)
-
-```
-PS C:\Users\mrdan\iot\lesson8> python pyplot_three.py
-```
-![3](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/pyplot3.png)
-
-```
-PS C:\Users\mrdan\iot\lesson8> python pyplot_two_subplots.py
-```
-![2sub](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/python2sub.png)
-
-```
-PS C:\Users\mrdan\iot\lesson8> python major_minor_demo1.py
-```
-![2sub](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/majMin.png)
-
-```
-PS C:\Users\mrdan\iot\lesson8> python titanic_1.py
-Data Columns:
-Index(['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp',
-       'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked'],
-      dtype='object')
-Survived:
-Sex
-female    0.742038
-male      0.188908
-Name: Survived, dtype: float64
-```
-![titanic](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/titanic1.png)
-
-```
-PS C:\Users\mrdan\iot\lesson8> python titanic_2.py
-Survived:
-Sex     Pclass
-female  1         0.968085
-        2         0.921053
-        3         0.500000
-male    1         0.368852
-        2         0.157407
-        3         0.135447
-Name: Survived, dtype: float64
-Number of Missing Fare: 1
-C:\Users\mrdan\iot\lesson8\titanic_2.py:28: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
-  print('Indices of Missing Fare: %d' % (wh_badfare))
-Indices of Missing Fare: 152
-Survived:
-Sex     Pclass  Fare_Bracket
-female  1       2               0.833333
-                3               0.977273
-        2       1               0.914286
-                2               0.900000
-                3               1.000000
-        3       0               0.593750
-                1               0.581395
-                2               0.333333
-                3               0.125000
-male    1       0               0.000000
-                2               0.400000
-                3               0.383721
-        2       0               0.000000
-                1               0.158730
-                2               0.160000
-                3               0.214286
-        3       0               0.111538
-                1               0.236842
-                2               0.125000
-                3               0.240000
-Name: Survived, dtype: float64
+C:\Users\mrdan>pip install pyang plantuml
+Collecting pyang
+  Downloading pyang-2.6.1-py2.py3-none-any.whl.metadata (821 bytes)
+Collecting plantuml
+  Downloading plantuml-0.3.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting lxml (from pyang)
+  Downloading lxml-5.4.0-cp313-cp313-win_amd64.whl.metadata (3.6 kB)
+Requirement already satisfied: httplib2 in c:\users\mrdan\appdata\local\programs\python\python313\lib\site-packages (from plantuml) (0.22.0)
+Requirement already satisfied: pyparsing!=3.0.0,!=3.0.1,!=3.0.2,!=3.0.3,<4,>=2.4.2 in c:\users\mrdan\appdata\local\programs\python\python313\lib\site-packages (from httplib2->plantuml) (3.2.3)
+Downloading pyang-2.6.1-py2.py3-none-any.whl (594 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 594.7/594.7 kB 5.1 MB/s eta 0:00:00
+Downloading plantuml-0.3.0-py3-none-any.whl (5.8 kB)
+Downloading lxml-5.4.0-cp313-cp313-win_amd64.whl (3.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 11.0 MB/s eta 0:00:00
+Installing collected packages: lxml, pyang, plantuml
+Successfully installed lxml-5.4.0 plantuml-0.3.0 pyang-2.6.1
 ```
 
 
-<h3 id="3">running cpudata graphs</h3>
 
-![4graph](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/4graphs.png)
+<h3 id="3">running YANG</h3>
 
-```
-PS C:\Users\mrdan\iot\demo> cp C:\Users\mrdan\Downloads\cpudata.csv
-PS C:\Users\mrdan\iot\demo> cp ~/iot/lesson8/plt_final.py
-PS C:\Users\mrdan\iot\demo> cp ~/iot/lesson8/plt_cv2.py
+
+```PS C:\Users\mrdan\iot\demo> cp ~/iot/lesson9/intrusiondetection.yang
 PS C:\Users\mrdan\iot\demo> ls
 
 
@@ -160,30 +85,321 @@ d-----          5/9/2025   8:19 AM                __pycache__
 -a----          5/9/2025   6:00 PM            482 cpudata.csv
 -a----          5/9/2025   8:46 AM           2133 cpu_spreadsheet.py
 -a----         4/28/2025   2:36 AM             36 file1
--a----         4/28/2025   2:26 AM            560 plt_cv2.py
--a----         4/28/2025   2:26 AM           1467 plt_final.py
+-a----         4/28/2025   2:26 AM           2072 intrusiondetection.yang
+-a----          5/9/2025   6:09 PM            557 plt_cv2.py
+-a----          5/9/2025   6:07 PM           1504 plt_final.py
 -a----         4/28/2025   2:26 AM           2490 system_info.py
 -a----         4/28/2025   2:26 AM            981 thingspeak_cpu_loop.py
 -a----         4/28/2025   2:26 AM           2533 thingspeak_feed.py
+
+
+PS C:\Users\mrdan\iot\demo> cat intrusiondetection.yang
+module intrusiondetection {
+
+ namespace "http://netconfcentral.org/ns/intrusiondetection";
+
+ prefix "intrusion";
+
+ description
+  "YANG module for Intrusion Detection IoT system";
+
+ revision 2014-07-15 {
+  description "Intrusion Detection System";
+ }
+
+ grouping room {
+  leaf doorsensorID {
+   type string;
+   description
+    "ID of door sensor in the room";
+  }
+  leaf motionsensorID {
+   type string;
+   description
+    "ID of motion sensor in the room";
+  }
+ }
+
+ container intrusiondetection {
+  presence
+   "Indicates the service is available";
+
+  description
+   "Top-level container for all system objects.";
+
+  leaf systemID {
+   type string;
+   config false;
+   mandatory true;
+   description
+   "ID of the system";
+  }
+
+  leaf systemLocation {
+   type string;
+   config false;
+   mandatory true;
+   description
+   "The location of the system";
+  }
+
+  leaf systemStatus {
+   type enumeration {
+    enum up {
+    value 1;
+    description
+     "This is powered up";
+    }
+    enum down {
+    value 2;
+    description
+     "This is powered down";
+    }
+    enum armed {
+    value 3;
+    description
+     "This is armed";
+    }
+    enum disarmed {
+    value 4;
+    description
+     "This is disarmed";
+    }
+   }
+   config false;
+   mandatory true;
+   description
+   "This variable indicates the current state of
+    the system.";
+  }
+    container sensors {
+   uses room;
+   config false;
+  }
+ }
+
+ rpc arm-system {
+  description
+   "Arm the system";
+ }
+
+ rpc disarm-system {
+  description
+   "Disarm the system";
+ }
+
+ notification systemArmed {
+  description
+   "Indicates that system has been armed.";
+
+  leaf armStatus {
+   description
+    "Indicates the system arming status";
+
+   type enumeration {
+    enum armed {
+    description
+     "The system was armed.";
+    }
+
+    enum disarmed {
+    description
+     "The system was disarmed.";
+    }
+
+    enum error {
+    description
+     "The system is broken.";
+    }
+   }
+  }
+ }
+}
+PS C:\Users\mrdan\iot\demo> pyang -f yin -o intrusiondetection.yin intrusiondetection.yang
+PS C:\Users\mrdan\iot\demo> cat intrusiondetection.yin
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="intrusiondetection"
+        xmlns="urn:ietf:params:xml:ns:yang:yin:1"
+        xmlns:intrusion="http://netconfcentral.org/ns/intrusiondetection">
+  <namespace uri="http://netconfcentral.org/ns/intrusiondetection"/>
+  <prefix value="intrusion"/>
+  <description>
+    <text>YANG module for Intrusion Detection IoT system</text>
+  </description>
+  <revision date="2014-07-15">
+    <description>
+      <text>Intrusion Detection System</text>
+    </description>
+  </revision>
+  <grouping name="room">
+    <leaf name="doorsensorID">
+      <type name="string"/>
+      <description>
+        <text>ID of door sensor in the room</text>
+      </description>
+    </leaf>
+    <leaf name="motionsensorID">
+      <type name="string"/>
+      <description>
+        <text>ID of motion sensor in the room</text>
+      </description>
+    </leaf>
+  </grouping>
+  <container name="intrusiondetection">
+    <presence value="Indicates the service is available"/>
+    <description>
+      <text>Top-level container for all system objects.</text>
+    </description>
+    <leaf name="systemID">
+      <type name="string"/>
+      <config value="false"/>
+      <mandatory value="true"/>
+      <description>
+        <text>ID of the system</text>
+      </description>
+    </leaf>
+    <leaf name="systemLocation">
+      <type name="string"/>
+      <config value="false"/>
+      <mandatory value="true"/>
+      <description>
+        <text>The location of the system</text>
+      </description>
+    </leaf>
+    <leaf name="systemStatus">
+      <type name="enumeration">
+        <enum name="up">
+          <value value="1"/>
+          <description>
+            <text>This is powered up</text>
+          </description>
+        </enum>
+        <enum name="down">
+          <value value="2"/>
+          <description>
+            <text>This is powered down</text>
+          </description>
+        </enum>
+        <enum name="armed">
+          <value value="3"/>
+          <description>
+            <text>This is armed</text>
+          </description>
+        </enum>
+        <enum name="disarmed">
+          <value value="4"/>
+          <description>
+            <text>This is disarmed</text>
+          </description>
+        </enum>
+      </type>
+      <config value="false"/>
+      <mandatory value="true"/>
+      <description>
+        <text>This variable indicates the current state of
+the system.</text>
+      </description>
+    </leaf>
+    <container name="sensors">
+      <uses name="room"/>
+      <config value="false"/>
+    </container>
+  </container>
+  <rpc name="arm-system">
+    <description>
+      <text>Arm the system</text>
+    </description>
+  </rpc>
+  <rpc name="disarm-system">
+    <description>
+      <text>Disarm the system</text>
+    </description>
+  </rpc>
+  <notification name="systemArmed">
+    <description>
+      <text>Indicates that system has been armed.</text>
+    </description>
+    <leaf name="armStatus">
+      <description>
+        <text>Indicates the system arming status</text>
+      </description>
+      <type name="enumeration">
+        <enum name="armed">
+          <description>
+            <text>The system was armed.</text>
+          </description>
+        </enum>
+        <enum name="disarmed">
+          <description>
+            <text>The system was disarmed.</text>
+          </description>
+        </enum>
+        <enum name="error">
+          <description>
+            <text>The system is broken.</text>
+          </description>
+        </enum>
+      </type>
+    </leaf>
+  </notification>
+</module>
+PS C:\Users\mrdan\iot\demo> pyang -f uml -o intrusiondetection.uml intrusiondetection.yang --uml-no=stereotypes,annotation,typedef
+PS C:\Users\mrdan\iot\demo> cat intrusiondetection.uml
+'Download plantuml from http://plantuml.sourceforge.net/
+'Generate png with java -jar plantuml.jar <file>
+'Output in img/<module>.png
+'If Java spits out memory error increase heap size with java -Xmx1024m  -jar plantuml.jar <file>
+@startuml img/intrusiondetection.png
+hide empty fields
+hide empty methods
+hide <<case>> circle
+hide <<augment>> circle
+hide <<choice>> circle
+hide <<leafref>> stereotype
+hide <<leafref>> circle
+hide stereotypes
+page 1x1
+Title intrusiondetection
+package "intrusion:intrusiondetection" as intrusion_intrusiondetection {
+}
+package "intrusion:intrusiondetection" as intrusion_intrusiondetection {
+class "intrusiondetection" as intrusiondetection << (M, #33CCFF) module>>
+class "room" as intrusiondetection_I_room_grouping <<(G,Lime) grouping>>
+intrusiondetection_I_room_grouping : doorsensorID : string
+intrusiondetection_I_room_grouping : motionsensorID : string
+class "intrusiondetection" as  intrusiondetection_I_intrusiondetection <<container>>
+intrusiondetection *-- "0..1" intrusiondetection_I_intrusiondetection
+intrusiondetection_I_intrusiondetection : systemID : string   {mandatory} {Config : false}
+intrusiondetection_I_intrusiondetection : systemLocation : string   {mandatory} {Config : false}
+intrusiondetection_I_intrusiondetection : systemStatus : enumeration : {up,down,armed,...}   {mandatory} {Config : false}
+class "sensors" as  intrusiondetection_I_intrusiondetection_I_sensors <<container>>
+intrusiondetection_I_intrusiondetection *-- "1" intrusiondetection_I_intrusiondetection_I_sensors
+intrusiondetection_I_intrusiondetection_I_sensors : room {uses}
+intrusiondetection : arm-system()
+intrusiondetection : disarm-system()
+class "systemArmed" as intrusiondetection_I_systemArmed << (N,#00D1B2) notification>>
+intrusiondetection -- intrusiondetection_I_systemArmed : notification
+intrusiondetection_I_systemArmed : armStatus : enumeration : {armed,disarmed,error,}
+}
+
+intrusiondetection_I_intrusiondetection_I_sensors --> intrusiondetection_I_room_grouping : uses
+center footer
+ <size:20> UML Generated : 2025-05-09 20:44 </size>
+ endfooter
+@enduml
+PS C:\Users\mrdan\iot\demo> python -m plantuml intrusiondetection.uml
+[{'filename': 'intrusiondetection.uml', 'gen_success': True}]
 ```
-```
-PS C:\Users\mrdan\iot\demo> python plt_final.py
-C:\Users\mrdan\iot\demo\plt_final.py:35: MatplotlibDeprecationWarning: Passing the notch parameter of boxplot() positionally is deprecated since Matplotlib 3.9; the parameter will become keyword-only in 3.11.
-  plt.boxplot(x, 0, '+', 0)
-C:\Users\mrdan\iot\demo\plt_final.py:41: MatplotlibDeprecationWarning: Passing the notch parameter of boxplot() positionally is deprecated since Matplotlib 3.9; the parameter will become keyword-only in 3.11.
-  plt.boxplot(y, 0, '+')
-```
-![1](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/timeSeries!!!.png)
-![2](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/memAvaGB.png)
-![3](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/cpusageH.png)
-![4](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/horzBox.png)
-![5](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/VertBox.png)
-![6](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/scatterDig.png)
+
 
 ```
-PS C:\Users\mrdan\iot\demo> python plt_cv2.py
+C:\Users\mrdan\iot\lesson9>pyang -f yin -o intrusiondetection.yin intrusiondetection.yang
+
+C:\Users\mrdan\iot\lesson9>pyang -f uml -o intrusiondetection.uml intrusiondetection.yang --uml-no=stereotypes,annotation,typedef
+
+C:\Users\mrdan\iot\lesson9>python -m plantuml intrusiondetection.uml
+[{'filename': 'intrusiondetection.uml', 'gen_success': True}]
 ```
-![cv2](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/cv2.png)
 
 ---
 <h4 id="100">Postscript</h4>
