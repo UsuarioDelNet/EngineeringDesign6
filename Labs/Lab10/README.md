@@ -2,7 +2,7 @@
 ## Lab 10 — Blockchain
 ---
 
-#### - `blockchain`
+- **`blockchain`**
   - [`random hash function`](#1)
   - [`secure hash algorithm`](#2)
   - [`tiniest blockchain`](#3)
