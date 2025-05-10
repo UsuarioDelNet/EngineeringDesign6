@@ -2,12 +2,12 @@
 ## Lab 10 — Blockchain
 ---
 
-- [`blockchain`](#1)
-  - [`random hash function`](#2)
-  - [`secure hash algorithm`](#3)
-  - [`tiniest blockchain`](#4)
-  - [`block mine`](#5)
-- [`blockchain app`](#6)
+#### - `blockchain`
+  - [`random hash function`](#1)
+  - [`secure hash algorithm`](#2)
+  - [`tiniest blockchain`](#3)
+  - [`block mine`](#4)
+- [`blockchain app`](#5)
 
 
 To go to the postscript, click [`HERE`](#100)
