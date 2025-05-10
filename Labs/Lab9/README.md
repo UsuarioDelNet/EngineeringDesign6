@@ -389,6 +389,7 @@ center footer
 @enduml
 PS C:\Users\mrdan\iot\demo> python -m plantuml intrusiondetection.uml
 [{'filename': 'intrusiondetection.uml', 'gen_success': True}]
+PS C:\Users\mrdan\iot\demo> explorer.exe .
 ```
 
 
@@ -400,6 +401,9 @@ C:\Users\mrdan\iot\lesson9>pyang -f uml -o intrusiondetection.uml intrusiondetec
 C:\Users\mrdan\iot\lesson9>python -m plantuml intrusiondetection.uml
 [{'filename': 'intrusiondetection.uml', 'gen_success': True}]
 ```
+
+![png](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab9/SourcesLab9/intrusiondetection.png)
+
 
 ---
 <h4 id="100">Postscript</h4>
