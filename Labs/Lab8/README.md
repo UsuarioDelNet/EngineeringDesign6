@@ -173,7 +173,7 @@ C:\Users\mrdan\iot\demo\plt_final.py:35: MatplotlibDeprecationWarning: Passing t
 C:\Users\mrdan\iot\demo\plt_final.py:41: MatplotlibDeprecationWarning: Passing the notch parameter of boxplot() positionally is deprecated since Matplotlib 3.9; the parameter will become keyword-only in 3.11.
   plt.boxplot(y, 0, '+')
 ```
-![1](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/timeSeries!!!.png)
+![1](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/TimeSeriesSmaller.png)
 ![2](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/memAvaGB.png)
 ![3](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/cpusageH.png)
 ![4](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab8/SourcesLab8/horzBox.png)
