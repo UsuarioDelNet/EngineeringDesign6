@@ -322,6 +322,9 @@ Installing collected packages: Werkzeug, markupsafe, flask
       Successfully uninstalled Flask-3.1.0
 Successfully installed Werkzeug-2.1.2 flask-2.1.3 markupsafe-2.0.1
 ```
+![snakeMine](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab10/SourcesLab10/snakecoinserver.png)
+![snakeMine2](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab10/SourcesLab10/minesnake.png)
+
 
 <h3 id="5">blockchain app</h3>
 
@@ -376,6 +379,10 @@ PS C:\Users\mrdan\iot\python_blockchain_app> python run_app.py
 127.0.0.1 - - [12/May/2025 02:58:26] "GET / HTTP/1.1" 200 -
 127.0.0.1 - - [12/May/2025 02:58:57] "GET / HTTP/1.1" 200 -
 ```
+![:3 1](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab10/SourcesLab10/miningsnakeblock.png)
+![:3 2](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab10/SourcesLab10/block1mined.png)
+![:3 3](https://github.com/UsuarioDelNet/EngineeringDesign6/blob/main/Labs/Lab10/SourcesLab10/mineblocksuccess.png)
+
 
 ---
 <h4 id="100">Postscript</h4>
