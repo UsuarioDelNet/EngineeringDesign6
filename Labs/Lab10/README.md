@@ -14,6 +14,9 @@ To go to the postscript, click [`HERE`](#100)
 
 ---
 
+
+<h3 id="1">random hash function</h3>
+
 ```
 PS C:\Users\mrdan> cd iot
 PS C:\Users\mrdan\iot> cd *10
@@ -72,6 +75,10 @@ The hash for Python is: -8652938607949081249
 The hash for a tuple of vowels is: -7084159014097113383
 The hash for an object of person is: -2882680852001230752
 ```
+
+
+<h3 id="2">secure hash algorithm</h3>
+
 ```
 PS C:\Users\mrdan\iot\lesson10> python
 Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] on win32
@@ -86,6 +93,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 64
 >>> exit()
 ```
+
+<h3 id="3">tiniest blockchain</h3>
+
 ```
 PS C:\Users\mrdan\iot\lesson10> cat snakecoin.py
 # Gerald Nash, "Let's build the tiniest blockchain in less than 50 lines of Python"
@@ -197,6 +207,8 @@ Hash: 89fa00b2b1662ba2bb070c18036350f83a6d9f64fd5bd40d523217905f2625e6
 Block #20 has been added to the blockchain!
 Hash: 29b3a247ac88c7bf6bdd83e9739779080de5c0a2a5918f9ff334fc9d0e4ed5d3
 ```
+<h3 id="4">block mine</h3>
+
 ```
 PS C:\Users\mrdan\iot\lesson10> pip install markupsafe==2.0.1 flask
 Collecting markupsafe==2.0.1
@@ -309,6 +321,60 @@ Installing collected packages: Werkzeug, markupsafe, flask
     Uninstalling Flask-3.1.0:
       Successfully uninstalled Flask-3.1.0
 Successfully installed Werkzeug-2.1.2 flask-2.1.3 markupsafe-2.0.1
+```
+
+<h3 id="5">blockchain app</h3>
+
+```
+PS C:\Users\mrdan>cd iot
+PS C:\Users\mrdan\iot>git clone https://github.com/satwikkansal/python_blockchain_app.git
+Cloning into 'python_blockchain_app'...
+remote: Enumerating objects: 173, done.
+remote: Counting objects: 100% (72/72), done.
+remote: Compressing objects: 100% (28/28), done.
+remote: Total 173 (delta 52), reused 56 (delta 43), pack-reused 101 (from 1)
+Receiving objects: 100% (173/173), 229.51 KiB | 3.02 MiB/s, done.
+Resolving deltas: 100% (84/84), done.
+PS C:\Users\mrdan\iot> cd python_blockchain_app
+PS C:\Users\mrdan\iot\python_blockchain_app> nano node_server.py
+PS C:\Users\mrdan\iot\python_blockchain_app> python node_server.py
+ * Serving Flask app 'node_server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 353-853-376
+127.0.0.1 - - [12/May/2025 02:57:27] "GET /chain HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 02:57:39] "GET /mine HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 02:57:39] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [12/May/2025 02:57:39] "GET /mine HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 02:58:26] "POST /new_transaction HTTP/1.1" 201 -
+127.0.0.1 - - [12/May/2025 02:58:26] "GET /chain HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 02:58:27] "GET /mine HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 02:58:31] "GET /mine HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 02:58:57] "GET /chain HTTP/1.1" 200 -
+```
+```
+PS C:\Users\mrdan> cd iot
+PS C:\Users\mrdan\iot> cd python_blockchain_app
+PS C:\Users\mrdan\iot\python_blockchain_app> python run_app.py
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 353-853-376
+127.0.0.1 - - [12/May/2025 02:57:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 02:57:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [12/May/2025 02:58:26] "POST /submit HTTP/1.1" 302 -
+127.0.0.1 - - [12/May/2025 02:58:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 02:58:57] "GET / HTTP/1.1" 200 -
 ```
 
 ---
